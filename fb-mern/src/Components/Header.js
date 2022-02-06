@@ -14,6 +14,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 
 
 
+
 const Header = () => {
     
 
@@ -30,19 +31,19 @@ const Header = () => {
 
             <div className="header__center">
                 <div className="header__option header__option--active">
-                    <HomeIcon fontsize='large' />
+                    <HomeIcon fontSize='large' />
                 </div>
                 <div className="header__option">
-                    <FlagIcon fontsize='large' />
+                    <FlagIcon fontSize='large' />
                 </div>
                 <div className="header__option">
-                    <SubscriptionsOutlinedIcon fontsize='large' />
+                    <SubscriptionsOutlinedIcon fontSize='large' />
                 </div>
                 <div className="header__option">
-                    <StorefrontOutlinedIcon fontsize='large' />
+                    <StorefrontOutlinedIcon fontSize='large' />
                 </div>
                 <div className="header__option">
-                    <SupervisedUserCircleIcon fontsize='large' />
+                    <SupervisedUserCircleIcon fontSize='large' />
                 </div>
             </div>
 
