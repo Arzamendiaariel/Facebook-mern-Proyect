@@ -7,11 +7,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      
       <Header />
-      <Sidebar />
-      <Feed />
-      {/* widgets */}
+
+      <div className="app__body">
+        <Sidebar />
+        <Feed />
+        {/* widgets */}
+      </div>
     </div>
   );
 }

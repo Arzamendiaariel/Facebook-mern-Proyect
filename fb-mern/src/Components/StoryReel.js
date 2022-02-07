@@ -13,10 +13,10 @@ const StoryReel = () => {
             <Story
                 image='https://assets.yellowtrace.com.au/wp-content/uploads/2019/07/25141848/Abstract-Portrait-Paintings-by-Joseph-Lee-Yellowtrace-05.jpg'
                 profileSrc="https://i.scdn.co/image/ab6761610000e5eb9382fc7588f9c8d3b1e3f35a"
-                title='Violencia RIvas '
+                title='Violencia Rvas '
             />
             <Story
-                image='https://cdn.shopify.com/s/files/1/0128/3672/products/DIMENSIONAL_ABSTRACT_PORTRAIT_no._IV_1024x1024.png?v=1507719723'
+                image="https://pbs.twimg.com/profile_images/1260515438783606784/EFDwR8Zx_400x400.jpg"
                 profileSrc="https://i.guim.co.uk/img/media/58ad228c3b8bf752f9198cd7f382dffd4a85b896/0_40_2172_1303/master/2172.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=580e601c199596326d6ed755d2a080c5"
                 title='Carlos Menem'
             />
