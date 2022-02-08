@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Components/Header';
 import Sidebar from './Components/Sidebar';
 import Feed from './Components/Feed';
+import Widget from './Components/Widget';
 import './App.css';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <div className="app__body">
         <Sidebar />
         <Feed />
-        {/* widgets */}
+        <Widget />
       </div>
     </div>
   );

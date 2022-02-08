@@ -15,29 +15,33 @@ return (
             <div className='post__topInfo'>
 
                 <h3>{username}</h3>
-                <p>{new Date(parseInt(timestamp)).toUTCString()}</p>
+                <p>{new Date().toUTCString()}</p>
             </div>
+        </div>
+        
+        <div className="post__bottom">
+            <p>{message}</p>
         </div>
 
         <div className="post__options">
-            <div className="post__options">
+            <div className="post__option">
                 <ThumbUpIcon />
                 <p>Like</p>
             </div>
-            <div className="post__options">
+            <div className="post__option">
                 <ChatBubbleOutIcon />
                 <p>Comment</p>
             </div>
-            <div className="post__options">
+            <div className="post__option">
                 <NearMeIcon />
                 <p>Share</p>
             </div>
-            <div className="post__options">
+            <div className="post__option">
                 <AccountCircleIcon />
                 <ExpandMoreOutlined />
             </div>
         </div>
-            </div>      
+    </div>      
     )
 }
 
